@@ -2,7 +2,7 @@
 
 !.gitignore
 !hypr/
-!images
+!images/
 !waybar/
 !zed/
 
