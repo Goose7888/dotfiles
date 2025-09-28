@@ -84,7 +84,6 @@ tooltip label {
     );
     /* animation: gradientAnimation 2s linear infinite reverse; */
     border: 2px solid rgb(255, 255, 255);
-    
 }
 
 #cpu,
@@ -108,6 +107,16 @@ tooltip label {
 
     margin: 0px 6px 0px 6px;
     padding: 0px 8px 0px 4px;
+}
+
+#custom-gpu-usage {
+    background-color: rgb(163, 157, 221);
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 4px;
+    color: rgb(255, 255, 255);
+
+    margin: 0px 6px 0px 0px;
+    padding: 0px 8px 0px 8px;
 }
 
 #network {

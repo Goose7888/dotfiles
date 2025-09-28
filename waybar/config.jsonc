@@ -16,6 +16,7 @@
     "tray",
     "cpu_text",
     "cpu",
+    "custom/gpu-usage",
     "memory",
     "battery",
     "network",
@@ -69,6 +70,13 @@
     "states": {
       "critical": 80,
     },
+  },
+
+  "custom/gpu-usage": {
+    "exec": "nvidia-smi --query-gpu=utilization.gpu --format=csv,noheader,nounits",
+    "format": "gpu {}%",
+    "return-type": "",
+    "interval": 1,
   },
 
   "battery": {
