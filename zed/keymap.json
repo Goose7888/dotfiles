@@ -4,5 +4,39 @@
     "bindings": {
       "j k": "vim::SwitchToNormalMode"
     }
+  },
+  {
+    "bindings": {
+      "ctrl-shift-o": "workspace::Open"
+    }
+  },
+  {
+    "context": "Workspace && !Terminal",
+    "bindings": {
+      "ctrl-p": "file_finder::Toggle"
+    }
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "ctrl-p": null
+    }
+  },
+  {
+    "context": "Workspace && !Terminal",
+    "bindings": {
+      "ctrl-n": "workspace::NewFile"
+    }
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "ctrl-n": null
+    }
+  },
+  {
+    "bindings": {
+      "ctrl-shift-w": null
+    }
   }
 ]
